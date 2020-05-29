@@ -86,21 +86,21 @@ components:
         from:
           "$ref": "voice.yml#/components/schemas/EndpointPhone"
         ncco:
-          "$ref": "voice.yml#/paths/~1/post/requestBody/content/application~1json/schema/properties/ncco"
+          "$ref": "voice.yml#/components/schemas/CreateCallRequest/properties/ncco"
         answer_url:
-          "$ref": "voice.yml#/paths/~1/post/requestBody/content/application~1json/schema/properties/answer_url"
+          "$ref": "voice.yml#/components/schemas/CreateCallRequest/properties/answer_url"
         answer_method:
-          "$ref": "voice.yml#/paths/~1/post/requestBody/content/application~1json/schema/properties/answer_method"
+          "$ref": "voice.yml#/components/schemas/CreateCallRequest/properties/answer_method"
         event_url:
-          "$ref": "voice.yml#/paths/~1/post/requestBody/content/application~1json/schema/properties/event_url"
+          "$ref": "voice.yml#/components/schemas/CreateCallRequest/properties/event_url"
         event_method:
-          "$ref": "voice.yml#/paths/~1/post/requestBody/content/application~1json/schema/properties/event_method"
+          "$ref": "voice.yml#/components/schemas/CreateCallRequest/properties/event_method"
         machine_detection:
-          "$ref": "voice.yml#/paths/~1/post/requestBody/content/application~1json/schema/properties/machine_detection"
+          "$ref": "voice.yml#/components/schemas/CreateCallRequest/properties/machine_detection"
         length_timer:
-          "$ref": "voice.yml#/paths/~1/post/requestBody/content/application~1json/schema/properties/length_timer"
+          "$ref": "voice.yml#/components/schemas/CreateCallRequest/properties/length_timer"
         ringing_timer:
-          "$ref": "voice.yml#/paths/~1/post/requestBody/content/application~1json/schema/properties/ringing_timer"
+          "$ref": "voice.yml#/components/schemas/CreateCallRequest/properties/ringing_timer"
 
     CallPlacedWebhook:
       properties:
